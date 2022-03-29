@@ -11,7 +11,7 @@ def power_numbers(*args):
     >>> power_numbers(1, 2, 5, 7)
     [1, 4, 25, 49]
     """
-    return [number ** 2 for number in [*args]]
+    return [number ** 2 for number in args]
 
 
 # filter types
