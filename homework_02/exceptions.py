@@ -13,6 +13,7 @@ class LowFuelError(Exception):
 class NotEnoughFuel(Exception):
     pass
 
+
 class CargoOverload(Exception):
     pass
 
