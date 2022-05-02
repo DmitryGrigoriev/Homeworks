@@ -12,8 +12,3 @@ class Car(Vehicle):
 
     def set_engine(self, engine):
         self.engine = engine
-
-
-car = Car(50, 100, 200)
-v = Vehicle()
-print(isinstance(car, Vehicle))
